@@ -1,0 +1,453 @@
+{
+    "User_Types": [
+        "Maintenance Personnel",
+        "Operator"
+    ],
+    "Tasks": [
+        "Cleaning",
+        "Maintenance",
+        "Normal Operation",
+        "Setup/Programming"
+    ],
+    "Environments": [
+        "Industrial"
+    ],
+    "Severities": {
+        "S1": "slight (normally reversible injury)",
+        "S2": "serious (normally irreversible injury or death)"
+    },
+    "Frequencies": {
+        "F1": "seldom-to-less-often and/or exposure time is short",
+        "F2": "frequent-to-continuous and/or exposure time is long"
+    },
+    "Possibilities": {
+        "P1": "possible under specific conditions",
+        "P2": "scarcely possible"
+    },
+	
+     "user_types_plausible": {
+        "Maintenance Personnel": [
+            "Maintenance",
+            "Setup or Programming"
+        ],
+        "Operator": [
+            "Normal Operation",
+            "Cleaning",
+            "Setup or Programming"
+        ]
+    }
+
+
+    "Hazard_Types": {
+        "Mechanical Hazards": {
+            "Acceleration, Deceleration": [
+                "Being run over",
+                "Being thrown",
+                "Crushing",
+                "Impact",
+                "Slipping, tripping, falling (indirectly due to instability)"
+            ],
+            "Angular Parts": [
+                "Being thrown",
+                "Crushing",
+                "Cutting or severing",
+                "Drawing-in or trapping",
+                "Entanglement",
+                "Friction or abrasion",
+                "Impact",
+                "Shearing",
+                "Stabbing or puncture"
+            ],
+            "Approach of a Moving Element to a Fixed Part": [
+                "Crushing",
+                "Cutting or severing",
+                "Drawing-in or trapping",
+                "Impact",
+                "Shearing"
+            ],
+            "Cutting Parts": [
+                "Cutting or severing",
+                "Stabbing or puncture",
+                "Impact (from broken pieces)"
+            ],
+            "Elastic Elements": [
+                "Being thrown",
+                "Impact"
+            ],
+            "Falling Objects": [
+                "Crushing",
+                "Impact"
+            ],
+            "Gravity": [
+                "Falling objects (primary consequence)",
+                "Slipping, tripping, falling (indirectly)"
+            ],
+            "Height from the Ground": [
+                "Slipping, tripping, falling",
+                "Impact"
+            ],
+            "High Pressure": [
+                "Injection",
+                "Being thrown (if pressure release is uncontrolled)",
+                "Impact"
+            ],
+            "Instability": [
+                "Slipping, tripping, falling",
+                "Being thrown (if object topples)",
+                "Crushing (if object collapses)"
+            ],
+            "Kinetic Energy (General)": [
+                "Being run over",
+                "Being thrown",
+                "Crushing",
+                "Cutting or severing",
+                "Drawing-in or trapping",
+                "Entanglement",
+                "Friction or abrasion",
+                "Impact",
+                "Injection",
+                "Shearing",
+                "Slipping, tripping, falling",
+                "Stabbing or puncture"
+            ],
+            "Machinery Mobility": [
+                "Being run over",
+                "Crushing (e.g., by overturning)"
+            ],
+            "Moving Elements (General)": [
+                "Crushing",
+                "Cutting or severing",
+                "Drawing-in or trapping",
+                "Impact",
+                "Shearing"
+            ],
+            "Rotating Elements": [
+                "Being thrown",
+                "Crushing",
+                "Cutting or severing",
+                "Drawing-in or trapping",
+                "Entanglement",
+                "Friction or abrasion",
+                "Impact",
+                "Shearing",
+                "Stabbing or puncture"
+            ],
+            "Rough, Slippery Surface": [
+                "Slipping, tripping, falling"
+            ],
+            "Sharp Edges": [
+                "Cutting or severing",
+                "Stabbing or puncture"
+            ],
+            "Stored Energy (General)": [
+                "Being thrown",
+                "Crushing",
+                "Impact"
+            ],
+            "Vacuum": [
+                "Drawing-in or trapping"
+            ]
+        },
+        "Electrical Hazards": {
+            "Arc": [
+                "Burn",
+                "Fire",
+                "Blinding (flash burn)"
+            ],
+            "Electromagnetic Phenomena": [
+                "Interference with electronic devices",
+                "Disruption of medical implants"
+            ],
+            "Electrostatic Phenomena": [
+                "Spark ignition (fire or explosion)",
+                "Shock"
+            ],
+            "Live Parts": [
+                "Electrocution",
+                "Burns"
+            ],
+            "Not Enough Distance to Live Parts Under High Voltage": [
+                "Arc flash",
+                "Electrocution"
+            ],
+            "Overload": [
+                "Overheating",
+                "Fire",
+                "Equipment damage"
+            ],
+            "Parts Which Have Become Live Under Fault Conditions": [
+                "Electrocution",
+                "Shock",
+                "Burns"
+            ],
+            "Short-circuit": [
+                "Fire",
+                "Explosion",
+                "Equipment damage"
+            ],
+            "Thermal Radiation": [
+                "Burn",
+                "Fire",
+                "Material deformation or damage"
+            ],
+            "Chemical Effects (from electrolysis or heating)": [
+                "Release of toxic gases",
+                "Corrosion"
+            ],
+            "Effects on Medical Implants": [
+                "Malfunction of implanted devices",
+                "Interference with pacemakers"
+            ],
+            "Electrocution": [
+                "Cardiac arrest",
+                "Muscle paralysis",
+                "Burns"
+            ],
+            "Falling, Being Thrown (due to electric shock or blast)": [
+                "Injuries from falls",
+                "Being thrown against objects"
+            ],
+            "Fire": [
+                "Structural damage",
+                "Smoke inhalation injuries",
+                "Burns"
+            ],
+            "Projection of Molten Particles (from arcing or explosion)": [
+                "Burns",
+                "Eye injuries",
+                "Lacerations"
+            ],
+            "Shock": [
+                "Temporary incapacitation",
+                "Muscle contractions",
+                "Heart arrhythmia"
+            ]
+        },
+        "Thermal Hazards": {
+            "Explosion": [
+                "Burn",
+                "Dehydration"
+            ],
+            "Flame": [
+                "Burn",
+                "Discomfort"
+            ],
+            "Objects or Materials with a High or Low Temperature": [
+                "Frostbite",
+                "Injuries by the radiation of heat sources"
+            ],
+            "Radiation from Heat Sources": [
+                "Burn",
+                "Scald"
+            ]
+        },
+        "Noise Hazards": {
+            "Cavitation Phenomena": [
+                "Loss of awareness",
+                "Loss of balance"
+            ],
+            "Exhausting System": [
+                "Permanent hearing loss",
+                "Stress"
+            ],
+            "Gas Leaking at High Speed": [
+                "Tinnitus",
+                "Irritability"
+            ],
+            "Manufacturing, Cutting Processes": [
+                "Stress",
+                "Tiredness"
+            ],
+            "Moving Parts": [
+                "Permanent hearing loss",
+                "Discomfort"
+            ],
+            "Scraping Surfaces": [
+                "Annoyance",
+                "Communication difficulties"
+            ],
+            "Unbalanced Rotating Parts": [
+                "Tiredness",
+                "Stress"
+            ],
+            "Whistling Pneumatics": [
+                "Temporary threshold shift",
+                "Permanent hearing loss"
+            ]
+        },
+        "Vibration Hazards": {
+            "Cavitation Phenomena": [
+                "Low-back morbidity",
+                "Neurological disorder"
+            ],
+            "Misalignment of Moving Parts": [
+                "Osteo-articular disorder",
+                "Vascular disorder"
+            ],
+            "Mobile Equipment": [
+                "Discomfort",
+                "Low-back morbidity"
+            ],
+            "Scraping Surfaces": [
+                "Neurological disorder",
+                "Discomfort"
+            ],
+            "Unbalanced Rotating Parts": [
+                "Tiredness",
+                "Vascular disorder"
+            ],
+            "Vibrating Equipment": [
+                "Neurological disorder",
+                "Discomfort"
+            ]
+        },
+        "Radiation Hazards": {
+            "Low Ionizing Radiation Source": [
+                "Burn",
+                "Damage to eyes and skin"
+            ],
+            "Ionization Electromagnetic Radiation": [
+                "Effects on reproductive capability",
+                "Mutation"
+            ],
+            "Optical Radiation (Infrared, Visible and Ultraviolet), Including Laser": [
+                "Headache",
+                "Insomnia"
+            ],
+            "Radio Frequency Electromagnetic Radiation": [
+                "Breathing difficulties",
+                "Suffocation"
+            ]
+        },
+        "Material/Substance Hazards": {
+            "Aerosol (biological and microbiological viral or bacterial agent)": [
+                "Infection",
+                "Mutation"
+            ],
+            "Combustible Dust": [
+                "Explosion",
+                "Fire"
+            ],
+            "Flammable Fluid": [
+                "Fire",
+                "Explosion"
+            ],
+            "Gas": [
+                "Poisoning",
+                "Suffocation"
+            ],
+            "Mist": [
+                "Sensitization",
+                "Chemical burns"
+            ]
+        },
+        "Ergonomic Hazards": {
+            "Access": [
+                "Musculoskeletal disorder",
+                "Fatigue"
+            ],
+            "Design or Location of Indicators and Visual Displays Units": [
+                "Mental overload/underload",
+                "Stress"
+            ],
+            "Design, Location or Identification of Control Devices": [
+                "Discomfort",
+                "Repetitive activity"
+            ],
+            "Effort": [
+                "Musculoskeletal disorder",
+                "Dehydration"
+            ]
+        },
+        "Environmental Hazards": {
+            "Dust and Fog": [
+                "Slight disease"
+            ],
+            "Electromagnetic Disturbance": [
+                "Interference with electronic equipment",
+                "Communication disruption"
+            ],
+            "Lightning": [
+                "Electric shock",
+                "Burns"
+            ],
+            "Moisture": [
+                "Slipping, falling",
+                "Electric shock"
+            ],
+            "Pollution": [
+                "Sickness",
+                "Poisoning"
+            ],
+            "Snow": [
+                "Cold stress",
+                "Hypothermia"
+            ],
+            "Temperature": [
+                "Heat stroke",
+                "Frostbite"
+            ],
+            "Water": [
+                "Slipping, falling",
+                "Drowning"
+            ],
+            "Wind": [
+                "Being thrown",
+                "Falling objects"
+            ]
+        },
+        "Combination of Hazards": {
+            "High Environmental Temperature + High Effort": [
+                "Dehydration",
+                "Heat stroke"
+            ],
+            "High Environmental Temperature + Repetitive Activity": [
+                "Loss of awareness",
+                "Muscle fatigue"
+            ]
+        }
+    },
+   "hazard_scenario_entries_summary": {
+        "Mechanical Hazards": {
+            "Count": 2840,
+            "Hazard ID": "ME_XX"
+        },
+        "Electrical Hazards": {
+            "Count": 1640,
+            "Hazard ID": "EL_XX"
+        },
+        "Thermal Hazards": {
+            "Count": 320,
+            "Hazard ID": "TH_XX"
+        },
+        "Noise Hazards": {
+            "Count": 640,
+            "Hazard ID": "NO_XX"
+        },
+        "Vibration Hazards": {
+            "Count": 480,
+            "Hazard ID": "VI_XX"
+        },
+        "Radiation Hazards": {
+            "Count": 320,
+            "Hazard ID": "RA_XX"
+        },
+        "Material_Substance Hazards": {
+            "Count": 400,
+            "Hazard ID": "MS_XX"
+        },
+        "Ergonomic Hazards": {
+            "Count": 320,
+            "Hazard ID": "ER_XX"
+        },
+        "Environmental Hazards": {
+            "Count": 680,
+            "Hazard ID": "EN_XX"
+        },
+        "Combination of Hazards": {
+            "Count": 160,
+            "Hazard ID": "CO_XX"
+        },
+        "Total": 7800
+    }
+}
