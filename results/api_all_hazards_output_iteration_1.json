@@ -1,0 +1,702 @@
+[
+    {
+        "Original Hazard ID": "EN_500",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Temperature, which can lead to Frostbite. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EN_604",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Wind, which can lead to Being thrown. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Environmental\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EN_233",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Moisture, which can lead to Slipping, falling. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Slip and Fall (Related to environmental factors)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EN_583",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Water, which can lead to Drowning. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Environmental (Water Hazard)\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "EN_01",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Dust and Fog, which can lead to Slight disease. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard (Dust/Fog Inhalation)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EN_680",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Wind, which can lead to Falling objects. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Environmental\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "EN_668",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Wind, which can lead to Falling objects. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Environmental\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EN_161",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Lightning, which can lead to Burns. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EN_51",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Electromagnetic Disturbance, which can lead to Interference with electronic equipment. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electromagnetic\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EN_449",
+        "Original Hazard Type": "Environmental Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Temperature, which can lead to Heat stroke. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_291",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Effort, which can lead to Dehydration. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_274",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Effort, which can lead to Musculoskeletal disorder. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_18",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Access, which can lead to Musculoskeletal disorder. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_102",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Design or Location of Indicators and Visual Displays Units, which can lead to Mental overload/underload. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "ER_31",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Access, which can lead to Musculoskeletal disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ER_290",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Effort, which can lead to Dehydration. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard (Ergonomic/Physiological)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_91",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Design or Location of Indicators and Visual Displays Units, which can lead to Mental overload/underload. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Cognitive Ergonomic\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "ER_202",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Design, Location or Identification of Control Devices, which can lead to Repetitive activity. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_300",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Effort, which can lead to Dehydration. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Physiological\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ER_71",
+        "Original Hazard Type": "Ergonomic Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Access, which can lead to Fatigue. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ME_39",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Acceleration, Deceleration, which can lead to Being run over. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ME_871",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Cutting Parts, which can lead to Impact. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ME_1031",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Falling Objects, which can lead to Impact. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ME_686",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Approach of a Moving Element to a Fixed Part, which can lead to Impact. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "ME_2567",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Rough, Slippery Surface, which can lead to Slipping, tripping, falling. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Slip, Trip and Fall\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "ME_2483",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Rotating Elements, which can lead to Shearing. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "ME_2705",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Stored Energy (General), which can lead to Being thrown. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Stored Energy (General)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ME_1356",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Instability, which can lead to Slipping, tripping, falling. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Instability (Ergonomic/Human Factors)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "ME_664",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Approach of a Moving Element to a Fixed Part, which can lead to Drawing-in or trapping. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "ME_343",
+        "Original Hazard Type": "Mechanical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Angular Parts, which can lead to Drawing-in or trapping. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "CO_32",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter High Environmental Temperature + High Effort, which can lead to Dehydration. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Environmental\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "CO_104",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter High Environmental Temperature + Repetitive Activity, which can lead to Loss of awareness. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Physiological\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "CO_60",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter High Environmental Temperature + High Effort, which can lead to Heat stroke. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "CO_122",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter High Environmental Temperature + Repetitive Activity, which can lead to Muscle fatigue. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "CO_73",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter High Environmental Temperature + High Effort, which can lead to Heat stroke. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "CO_06",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter High Environmental Temperature + High Effort, which can lead to Dehydration. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Environmental (Thermal)\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "CO_87",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter High Environmental Temperature + Repetitive Activity, which can lead to Loss of awareness. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Thermal & Cognitive\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "CO_93",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter High Environmental Temperature + Repetitive Activity, which can lead to Loss of awareness. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Environmental/Ergonomic\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "CO_147",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter High Environmental Temperature + Repetitive Activity, which can lead to Muscle fatigue. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "Here's the classification based on the provided information and the ISO 12100 and ISO 13849 standards:\n\n- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "CO_50",
+        "Original Hazard Type": "Combination of Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter High Environmental Temperature + High Effort, which can lead to Heat stroke. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_28",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Aerosol (biological and microbiological viral or bacterial agent), which can lead to Infection. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Biological\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "MA_329",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Mist, which can lead to Sensitization. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_271",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Gas, which can lead to Poisoning. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Chemical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "MA_362",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Mist, which can lead to Chemical burns. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Chemical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_242",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Gas, which can lead to Poisoning. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Chemical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_97",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Combustible Dust, which can lead to Explosion. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Explosion\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_132",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Combustible Dust, which can lead to Fire. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Fire\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "MA_126",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Combustible Dust, which can lead to Fire. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Fire\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "MA_80",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Aerosol (biological and microbiological viral or bacterial agent), which can lead to Mutation. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Biological\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "MA_331",
+        "Original Hazard Type": "Material_Substance Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Mist, which can lead to Sensitization. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EL_130",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Electromagnetic Phenomena, which can lead to Interference with electronic devices. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electromagnetic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EL_1388",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Fire, which can lead to Burns. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EL_1596",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Shock, which can lead to Muscle contractions. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EL_950",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Chemical Effects (from electrolysis or heating), which can lead to Release of toxic gases. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Chemical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EL_994",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Chemical Effects (from electrolysis or heating), which can lead to Corrosion. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Chemical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EL_17",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Arc, which can lead to Burn. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EL_260",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Electrostatic Phenomena, which can lead to Shock. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "EL_1085",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Electrocution, which can lead to Cardiac arrest. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "EL_763",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Short-circuit, which can lead to Equipment damage. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "EL_781",
+        "Original Hazard Type": "Electrical Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Short-circuit, which can lead to Equipment damage. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Electrical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "RA_242",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Radio Frequency Electromagnetic Radiation, which can lead to Breathing difficulties. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electromagnetic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "RA_91",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Ionization Electromagnetic Radiation, which can lead to Effects on reproductive capability. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Radiation\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "RA_96",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Ionization Electromagnetic Radiation, which can lead to Effects on reproductive capability. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Radiation\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "RA_109",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Ionization Electromagnetic Radiation, which can lead to Effects on reproductive capability. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Radiation\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "RA_284",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Radio Frequency Electromagnetic Radiation, which can lead to Suffocation. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Electromagnetic Radiation\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "RA_227",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Optical Radiation (Infrared, Visible and Ultraviolet), Including Laser, which can lead to Insomnia. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Radiation\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "RA_98",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Ionization Electromagnetic Radiation, which can lead to Effects on reproductive capability. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "Here's the classification based on the provided information:\n\n- Hazard Type: Radiation\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "RA_235",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Optical Radiation (Infrared, Visible and Ultraviolet), Including Laser, which can lead to Insomnia. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Optical Radiation\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "RA_27",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Low Ionizing Radiation Source, which can lead to Burn. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Radiation\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "RA_255",
+        "Original Hazard Type": "Radiation Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Radio Frequency Electromagnetic Radiation, which can lead to Breathing difficulties. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Electromagnetic Radiation\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "TH_255",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Radiation from Heat Sources, which can lead to Burn. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Radiation (Thermal)\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "TH_274",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Radiation from Heat Sources, which can lead to Burn. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "TH_201",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Objects or Materials with a High or Low Temperature, which can lead to Injuries by the radiation of heat sources. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "TH_208",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Objects or Materials with a High or Low Temperature, which can lead to Injuries by the radiation of heat sources. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "TH_299",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Radiation from Heat Sources, which can lead to Scald. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "TH_02",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Explosion, which can lead to Burn. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal (Explosion leading to Burn)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "TH_154",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Flame, which can lead to Discomfort. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "TH_298",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Radiation from Heat Sources, which can lead to Scald. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "TH_33",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Explosion, which can lead to Burn. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Explosion\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "TH_19",
+        "Original Hazard Type": "Thermal Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Explosion, which can lead to Burn. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Thermal\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "NO_454",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Scraping Surfaces, which can lead to Communication difficulties. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "Here's the classification based on the information provided and following ISO 12100 and ISO 13849:\n\n- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "NO_185",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Gas Leaking at High Speed, which can lead to Tinnitus. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard (Noise)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "NO_371",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Moving Parts, which can lead to Discomfort. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "NO_130",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Exhausting System, which can lead to Stress. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Health Hazard (Stress due to exhausting system)\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "NO_617",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "a",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Whistling Pneumatics, which can lead to Permanent hearing loss. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Acoustic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "NO_422",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Scraping Surfaces, which can lead to Annoyance. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "NO_413",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Scraping Surfaces, which can lead to Annoyance. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "NO_317",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Manufacturing, Cutting Processes, which can lead to Tiredness. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "NO_141",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Exhausting System, which can lead to Stress. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Psychological/Ergonomic\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "NO_445",
+        "Original Hazard Type": "Noise Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Maintenance tasks may encounter Scraping Surfaces, which can lead to Communication difficulties. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_253",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Scraping Surfaces, which can lead to Neurological disorder. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_18",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Operator performing Normal Operation tasks may encounter Cavitation Phenomena, which can lead to Low-back morbidity. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Ergonomic\n- PLr: a"
+    },
+    {
+        "Original Hazard ID": "VI_96",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Misalignment of Moving Parts, which can lead to Osteo-articular disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_454",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Vibrating Equipment, which can lead to Discomfort. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "VI_440",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Vibrating Equipment, which can lead to Neurological disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_240",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Mobile Equipment, which can lead to Low-back morbidity. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_135",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "d",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Misalignment of Moving Parts, which can lead to Vascular disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: d"
+    },
+    {
+        "Original Hazard ID": "VI_357",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "c",
+        "Description": "In Industrial settings, Operator performing Setup or Programming tasks may encounter Unbalanced Rotating Parts, which can lead to Tiredness. These tasks are classified as seldom-to-less-often and/or exposure time is short, with a possibility described as possible under specific conditions. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    },
+    {
+        "Original Hazard ID": "VI_131",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "b",
+        "Description": "In Industrial settings, Maintenance Personnel performing Setup or Programming tasks may encounter Misalignment of Moving Parts, which can lead to Vascular disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as possible under specific conditions. The severity of potential injuries is described as slight (normally reversible injury).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: b"
+    },
+    {
+        "Original Hazard ID": "VI_432",
+        "Original Hazard Type": "Vibration Hazards",
+        "Original PLr": "e",
+        "Description": "In Industrial settings, Operator performing Cleaning tasks may encounter Vibrating Equipment, which can lead to Neurological disorder. These tasks are classified as frequent-to-continuous and/or exposure time is long, with a possibility described as scarcely possible. The severity of potential injuries is described as serious (normally irreversible injury or death).",
+        "API Response": "- Hazard Type: Mechanical\n- PLr: c"
+    }
+]
