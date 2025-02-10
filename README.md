@@ -1,9 +1,21 @@
 # hazardscenarios_iso12100AnnexB
-Comprehensive curated dataset of hazard scenarios systematically generated based on annex B of ISO12100 and PLr assigned based on ISO 13849
+Comprehensive curated dataset of hazard scenarios systematically generated based on annex B of ISO12100 and PLr assigned based on ISO 13849. The dataset comprises of the following files: 
 
-The hazard scenarios file comprise of the following template for each entry. 
+**combination_of_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to combinations of different hazards.
+**electrical_hazards_hazard_scenarios.json: **Contains hazard scenarios specifically related to electrical hazards.
+**environmental_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to environmental hazards.
+**ergonomic_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to ergonomic hazards.
+**material_substance_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to hazards from materials and substances.
+**mechanical_hazards_hazard_scenarios.json: **Contains hazard scenarios specifically related to mechanical hazards.
+**noise_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to noise hazards.
+**plausible_combinations_hazards_origin_consequences.json:** Defines the plausible combinations of hazards, their origins, and potential consequences.
+**radiation_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to radiation hazards.
+**safety_parameters_updated.json: **Contains updated safety parameters used in the hazard scenario generation.
+**thermal_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to thermal hazards.
+**vibration_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to vibration hazards.
 
-**Explanation of the elements in the template:**
+
+The hazard scenarios file comprise of the following template for each entry. **Explanation of the elements in the template:**
 
 "**Hazard ID**": A unique identifier assigned to each hazard scenario. This ID can be used for referencing and tracking individual scenarios.  It often incorporates abbreviations for the hazard type (e.g., ME for Mechanical, EL for Electrical) followed by a sequential number.
 
@@ -28,3 +40,9 @@ The hazard scenarios file comprise of the following template for each entry.
 "**PLr**": The required Performance Level, a measure of the reliability and effectiveness of safety functions needed to mitigate the risk.  This is determined based on the severity, frequency, and possibility of harm, as defined in ISO 13849-1.
 
 "**Description**": A detailed narrative describing the hazard scenario, combining all the information from the other fields. This provides a clear and concise summary of the scenario for risk assessment purposes.
+
+
+The "**Description**" field of each hazard scenario is dynamically generated based on the following template, incorporating the specific values for environment, user type, task, origin, consequence, frequency, and possibility:
+
+"Description": In {env} settings, {user_type} performing {task} tasks may encounter {origin}, which can lead to {consequence}. These tasks are classified as {freq_desc}, with a possibility described as {poss_desc}. The severity of potential injuries is described as {severity_desc}."
+
