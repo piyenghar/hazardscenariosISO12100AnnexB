@@ -11,7 +11,7 @@ Comprehensive curated dataset of hazard scenarios systematically generated based
 
 **material_substance_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to hazards from materials and substances.
 
-**mechanical_hazards_hazard_scenarios.json: **Contains hazard scenarios specifically related to mechanical hazards.
+**mechanical_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to mechanical hazards.
 
 **noise_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to noise hazards.
 
