@@ -3,7 +3,7 @@ Comprehensive curated dataset of hazard scenarios systematically generated based
 
 **combination_of_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to combinations of different hazards.
 
-**electrical_hazards_hazard_scenarios.json: ** Contains hazard scenarios specifically related to electrical hazards.
+**electrical_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to electrical hazards.
 
 **environmental_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to environmental hazards.
 
