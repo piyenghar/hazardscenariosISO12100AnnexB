@@ -22,6 +22,7 @@ Comprehensive curated dataset of hazard scenarios systematically generated based
 **vibration_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to vibration hazards.
 
 **plausible_combinations_hazards_origin_consequences.json:** Defines the plausible combinations of hazards, their origins, and potential consequences.
+
 **safety_parameters_updated.json:** Contains updated safety parameters used in the hazard scenario generation.
 
 
