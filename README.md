@@ -2,17 +2,28 @@
 Comprehensive curated dataset of hazard scenarios systematically generated based on annex B of ISO12100 and PLr assigned based on ISO 13849. The dataset comprises of the following files: 
 
 **combination_of_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to combinations of different hazards.
-**electrical_hazards_hazard_scenarios.json: **Contains hazard scenarios specifically related to electrical hazards.
+
+**electrical_hazards_hazard_scenarios.json: ** Contains hazard scenarios specifically related to electrical hazards.
+
 **environmental_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to environmental hazards.
+
 **ergonomic_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to ergonomic hazards.
+
 **material_substance_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to hazards from materials and substances.
+
 **mechanical_hazards_hazard_scenarios.json: **Contains hazard scenarios specifically related to mechanical hazards.
+
 **noise_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to noise hazards.
-**plausible_combinations_hazards_origin_consequences.json:** Defines the plausible combinations of hazards, their origins, and potential consequences.
+
 **radiation_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to radiation hazards.
-**safety_parameters_updated.json: **Contains updated safety parameters used in the hazard scenario generation.
+
 **thermal_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to thermal hazards.
+
 **vibration_hazards_hazard_scenarios.json:** Contains hazard scenarios specifically related to vibration hazards.
+
+**plausible_combinations_hazards_origin_consequences.json:** Defines the plausible combinations of hazards, their origins, and potential consequences.
+**safety_parameters_updated.json:** Contains updated safety parameters used in the hazard scenario generation.
+
 
 
 The hazard scenarios file comprise of the following template for each entry. **Explanation of the elements in the template:**
