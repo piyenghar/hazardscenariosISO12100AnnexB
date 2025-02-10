@@ -4,6 +4,7 @@ Comprehensive curated dataset of hazard scenarios systematically generated based
 The hazard scenarios file comprise of the following template for each entry. 
 
 **Explanation of the elements in the template:**
+
 "**Hazard ID**": A unique identifier assigned to each hazard scenario. This ID can be used for referencing and tracking individual scenarios.  It often incorporates abbreviations for the hazard type (e.g., ME for Mechanical, EL for Electrical) followed by a sequential number.
 
 "**Hazard Type**": The general category of the hazard, as defined in ISO 12100, Annex B.  Examples include "Mechanical Hazards," "Electrical Hazards," "Thermal Hazards," etc.
