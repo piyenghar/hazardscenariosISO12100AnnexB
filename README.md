@@ -1,20 +1,28 @@
-# Update July 2025: 
-# This dataset is introduced and described in the following publication. 
-# P. Iyenghar, "On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety," 2025 IEEE 21st International Conference on Factory Communication Systems (WFCS), Rostock, Germany, 2025, pp. 1-8, doi: 10.1109/WFCS63373.2025.11077569 (https://ieeexplore.ieee.org/document/11077569).  
+## 📢 Update — July 2025
 
-For citations please use the following: 
+This dataset is introduced and described in the following publication:
 
+**P. Iyenghar**, *On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety*,  
+2025 IEEE 21st International Conference on Factory Communication Systems (WFCS), Rostock, Germany, 2025, pp. 1–8.  
+[DOI: 10.1109/WFCS63373.2025.11077569](https://doi.org/10.1109/WFCS63373.2025.11077569) · [IEEE Xplore Link](https://ieeexplore.ieee.org/document/11077569)
+
+---
+
+### 📄 Citation
+
+If you use this dataset, please cite:
+
+```bibtex
 @INPROCEEDINGS{11077569,
   author={Iyenghar, Padma},
-  booktitle={2025 IEEE 21st International Conference on Factory Communication Systems (WFCS)}, 
-  title={On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety}, 
+  booktitle={2025 IEEE 21st International Conference on Factory Communication Systems (WFCS)},
+  title={On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety},
   year={2025},
-  volume={},
-  number={},
   pages={1-8},
-  keywords={Accuracy;ISO Standards;Benchmark testing;Hazards;Risk management;Reliability;Scenario generation;Machinery;Artificial intelligence;Software development management;Artificial intelligence;machinery safety;performance level;safety function;hazards;dataset;LLM;RAG},
-  doi={10.1109/WFCS63373.2025.11077569}}
-
+  keywords={Accuracy;ISO Standards;Benchmark testing;Hazards;Risk management;Reliability;Scenario generation;Machinery;Artificial intelligence;Software development management;machinery safety;performance level;safety function;hazards;dataset;LLM;RAG},
+  doi={10.1109/WFCS63373.2025.11077569}
+}
+```
 
 # Description of the dataset: 
 
