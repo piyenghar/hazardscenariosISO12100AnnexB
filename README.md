@@ -1,3 +1,23 @@
+# Update July 2025: 
+# This dataset is introduced and described in the following publication. 
+# P. Iyenghar, "On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety," 2025 IEEE 21st International Conference on Factory Communication Systems (WFCS), Rostock, Germany, 2025, pp. 1-8, doi: 10.1109/WFCS63373.2025.11077569 (https://ieeexplore.ieee.org/document/11077569).  
+
+For citations please use the following: 
+
+@INPROCEEDINGS{11077569,
+  author={Iyenghar, Padma},
+  booktitle={2025 IEEE 21st International Conference on Factory Communication Systems (WFCS)}, 
+  title={On the Development and Application of a Structured Dataset for Data-Driven Risk Assessment in Industrial Functional Safety}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Accuracy;ISO Standards;Benchmark testing;Hazards;Risk management;Reliability;Scenario generation;Machinery;Artificial intelligence;Software development management;Artificial intelligence;machinery safety;performance level;safety function;hazards;dataset;LLM;RAG},
+  doi={10.1109/WFCS63373.2025.11077569}}
+
+
+# Description of the dataset: 
+
 # hazardscenarios_iso12100AnnexB
 Comprehensive curated dataset of hazard scenarios systematically generated based on annex B of ISO12100 and PLr assigned based on ISO 13849. The dataset comprises of the following files: 
 
@@ -57,4 +77,6 @@ The hazard scenarios file comprise of the following template for each entry. **E
 The "**Description**" field of each hazard scenario is dynamically generated based on the following template, incorporating the specific values for environment, user type, task, origin, consequence, frequency, and possibility:
 
 "Description": In {env} settings, {user_type} performing {task} tasks may encounter {origin}, which can lead to {consequence}. These tasks are classified as {freq_desc}, with a possibility described as {poss_desc}. The severity of potential injuries is described as {severity_desc}."
+
+
 
