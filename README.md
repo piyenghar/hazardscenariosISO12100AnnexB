@@ -24,6 +24,35 @@ If you use this dataset, please cite:
 }
 ```
 
+## 📊 Related evaluations
+
+The following publications use this dataset to evaluate large language
+models (LLMs) for machinery functional safety risk assessment and
+required Performance Level (PLr) determination:
+
+```bibtex
+@ARTICLE{Iyenghar2025ReasoningLLMs,
+  author={Iyenghar, Padma},
+  journal={Electronics},
+  title={Empirical Evaluation of Reasoning LLMs in Machinery Functional Safety Risk Assessment and the Limits of Anthropomorphized Reasoning},
+  year={2025},
+  volume={14},
+  number={18},
+  pages={3624},
+  doi={10.3390/electronics14183624}
+}
+```
+```bibtex
+@ARTICLE{11244909,
+  author={Iyenghar, Padma and Mansour, Zaher and Wuebbellmann, Juergen},
+  journal={IEEE Access},
+  title={Evaluation of Automated Machinery Functional Safety Risk Assessment Using LLMs},
+  year={2025},
+  volume={13},
+  doi={10.1109/ACCESS.2025.3632528}
+}
+```
+
 ## 📦 Description of the dataset — `hazardscenarios_iso12100AnnexB`
 
 A **comprehensive, curated** dataset of hazard scenarios systematically generated based on **Annex B of ISO 12100** and assigned **Performance Level required (PLr)** according to **ISO 13849**.
