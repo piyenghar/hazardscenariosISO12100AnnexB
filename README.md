@@ -10,11 +10,11 @@ This dataset is introduced and described in the following publication:
 
 This dataset is used in the following publications to evaluate large language models (LLMs) for machinery functional safety risk assessment:
 
-**P. Iyenghar**, *Empirical Evaluation of Reasoning LLMs in Machinery Functional Safety Risk Assessment and the Limits of Anthropomorphized Reasoning*,  
+**P. Iyenghar**, Empirical Evaluation of Reasoning LLMs in Machinery Functional Safety Risk Assessment and the Limits of Anthropomorphized Reasoning,  
 Electronics, vol. 14, no. 18, article 3624, 2025.  
 [DOI: 10.3390/electronics14183624](https://doi.org/10.3390/electronics14183624) · [Publisher Link](https://www.mdpi.com/2079-9292/14/18/3624)
 
-**P. Iyenghar**, Z. Mansour, and J. Wuebbellmann, *Evaluation of Automated Machinery Functional Safety Risk Assessment Using LLMs*,  
+**P. Iyenghar**, Z. Mansour, and J. Wuebbellmann, Evaluation of Automated Machinery Functional Safety Risk Assessment Using LLMs,  
 IEEE Access, vol. 13, 2025.  
 [DOI: 10.1109/ACCESS.2025.3632528](https://doi.org/10.1109/ACCESS.2025.3632528) · [IEEE Xplore Link](https://ieeexplore.ieee.org/document/11244909)
 ---
