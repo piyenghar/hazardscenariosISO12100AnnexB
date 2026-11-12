@@ -1,6 +1,6 @@
 ## 📢 Update — Augmented dataset versions (October 2026)
 
-I am preparing several augmented versions of this dataset. I am not planning to release these versions publicly here, to reduce the risk of training contamination. Please contact me if you would like to use them and/or collaborate on this topic.
+I am preparing several augmented versions of this dataset. I am not planning to release these versions publicly here, to reduce the risk of training contamination. Please contact me if you would like to use them and/or collaborate on this topic: padma@safeai-labs.com
 
 
 ## This dataset is introduced and described in the following publication:
